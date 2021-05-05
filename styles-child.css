@@ -1,9 +1,19 @@
+#logo a {
+    color: #444;
+}
+
 .my-works-button {
     font-family: Poppins, sans-serif !important;
 }
 
-.lists-2 li:first-child {
-    margin-top: 0 !important;
+.bg-666 {
+    background-color: #666 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .lists-2 li:first-child {
+        margin-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -16,5 +26,9 @@
 
     .progress-percent {
         top: 9px !important;
+    }
+
+    .slider-caption h2 {
+        font-size: 3rem;
     }
 }
