@@ -127,20 +127,20 @@ li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #3297FD;
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #1ABC9C;
+	background: #3297FD;
 	/* Firefox */
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #1ABC9C;
+	background: #3297FD;
 	/* Safari */
 	color: #FFF;
 	text-shadow: none;
@@ -15293,10 +15293,11 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop {
 	bottom: 30px;
+	border-radius: 100% !important;
 }
 
 #gotoTop:hover {
-	background-color: #1ABC9C;
+	background-color: #000;
 }
 
 
