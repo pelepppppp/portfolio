@@ -92,4 +92,8 @@ body {
     .portfolio-text {
         width: -webkit-fill-available;
     }
+
+    .slider-element .slider-caption p {
+        font-size: 20px !important;
+    }
 }
