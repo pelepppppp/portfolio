@@ -1,0 +1,20 @@
+.my-works-button {
+    font-family: Poppins, sans-serif !important;
+}
+
+.lists-2 li:first-child {
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 425px) {
+
+    .dark .progress-percent::after,
+    .dark .progress-percent::before {
+        top: -8px;
+        transform: rotate(180deg);
+    }
+
+    .progress-percent {
+        top: 9px !important;
+    }
+}
