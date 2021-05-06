@@ -1,0 +1,48 @@
+:root {
+	--path-fill-1: #dce3f1;
+	--path-fill-2: #869ccc;
+	--path-fill-3: #30436f;
+	--path-fill-4: #0d1831;
+	--color-title: #fff;
+	--color-menu: #fff;
+	--font-size-menu: 1.625rem;
+	--theme-bg: #e41c34
+}
+
+@-webkit-keyframes intervalHamburgerBorder {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	80% {
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6)
+	}
+}
+
+@keyframes intervalHamburgerBorder {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	80% {
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6)
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6)
+	}
+}
