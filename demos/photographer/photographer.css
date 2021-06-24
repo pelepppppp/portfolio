@@ -125,18 +125,22 @@ body.dark {
 	opacity: 0;
 	width: 20px;
 	height: 20px;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	border-radius: 50%;
 	text-align: center;
 	line-height: 18px;
 	font-size: 11px;
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
-	transition: opacity .3s ease
+	transition: opacity .3s ease;
+	text-align: left;
+	display: flex;
+	width: 100%;
 }
 
 .img-hover-wrap:hover .img-link {
-	opacity: 1
+	opacity: 1;
+	width: 100%;
 }
 
 .img-hover-detail a {
