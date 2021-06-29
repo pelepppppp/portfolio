@@ -97,3 +97,15 @@ body {
         font-size: 20px !important;
     }
 }
+
+#section-about::before {
+    content: '';
+    position: absolute;
+    top: 14%;
+    left: 45%;
+    width: 80%;
+    height: 451px;
+    background-size: 1280px 451px;
+    background-repeat: no-repeat;
+    background-image: url(images/hero-3.svg);
+}
