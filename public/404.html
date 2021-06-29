@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <p class="center">
+  <p class="center mb-4" style="margin-bottom: 60px; font-family: monospace; font-size: 20px;">
     Space Invaders destroyed this page! Take revenge on them!<br>
     Use <span class="label label-danger"><span class="font-weight-bold">Space</span></span> to shoot and
     <span class="label label-danger font-weight-bold">←</span>&#160;
@@ -23,6 +23,13 @@
   <canvas id="space-invaders" />
 
   <style>
+    body {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
     #header {
       display: none;
     }
@@ -69,10 +76,14 @@
       border-radius: 3px;
     }
 
-    .btn-default {
+    .btn-default,
+    .btn-default a {
       color: #333;
       background-color: #fff;
       border-color: #ccc;
+      font-family: monospace;
+      font-size: 16px;
+      text-decoration: none;
     }
   </style>
 
