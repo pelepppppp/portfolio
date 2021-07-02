@@ -55,7 +55,7 @@ body {
 
     .dark .progress-percent::after,
     .dark .progress-percent::before {
-        top: -8px;
+        top: -10px;
         transform: rotate(180deg);
     }
 

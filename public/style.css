@@ -13730,7 +13730,7 @@ body:not(.device-touch) .rounded-skill {
 
 .skills li .progress-percent {
 	position: absolute;
-	top: -28px;
+	top: 10px;
 	right: 0;
 	background-color: #333;
 	color: #F9F9F9;
@@ -13756,6 +13756,8 @@ body:not(.device-touch) .rounded-skill {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
+	top: -10px;
+	transform: rotate(180deg);
 }
 
 .progress-percent::after {
@@ -13763,6 +13765,8 @@ body:not(.device-touch) .rounded-skill {
 	border-width: 4px;
 	left: 50%;
 	margin-left: -4px;
+	top: -8px;
+	display: none;
 }
 
 .progress-percent::before {
