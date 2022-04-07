@@ -114,7 +114,9 @@
 
 .slider-element .slider-caption p {
 	font-size: 24px;
-	color: #AAA;
+	color: #333;
+	text-shadow: 0px 0px 5px #fff;
+	font-weight: 500 !important;
 }
 
 .slider-element .more-link {
