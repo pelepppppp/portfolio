@@ -98,18 +98,6 @@ body {
     }
 }
 
-/* #section-about::before {
-    content: '';
-    position: absolute;
-    top: 14%;
-    left: 45%;
-    width: 80%;
-    height: 451px;
-    background-size: 1280px 451px;
-    background-repeat: no-repeat;
-    background-image: url(images/hero-3.svg);
-} */
-
 @media screen and (max-width: 1199px) {
     #section-works.section.page-section.m-0 {
         background-size: cover !important;
@@ -117,7 +105,8 @@ body {
 }
 
 @media screen and (max-width: 860px) {
-    #slider .vh-100.vw-100.position-fixed {
+    #slider .vh-100.vw-100.position-fixed,
+    div#section-about {
         background-size: cover !important;
         background-position: center !important;
     }
@@ -129,7 +118,6 @@ body {
 
 a.font-primary.border-0.ls1.topmargin-sm.inline-block.more-link.dark.d-none.d-sm-inline-block.fadeIn.animated {
     color: #333 !important;
-    /* text-shadow: 3px 2px 3px #000; */
 }
 
 .dark .heading-block2::after {
