@@ -1,5 +1,7 @@
 html,
 body {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -15,6 +17,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 700;
     opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -28,14 +32,22 @@ body {
 
 .niche-demos-lists li a {
     color: #333 !important;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 5px 0;
 }
 
 .niche-demos-lists li a:hover {
     color: #555;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -56,6 +68,8 @@ body {
     .dark .progress-percent::after,
     .dark .progress-percent::before {
         top: -10px;
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 
@@ -70,10 +84,14 @@ body {
 
 @media screen and (min-width: 577px) {
     .footer-name {
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
         transition: all 0.3s;
     }
 
     .footer-name:hover {
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
         transition: all 0.3s;
     }
 }
@@ -105,6 +123,7 @@ body {
 }
 
 @media screen and (max-width: 860px) {
+
     #slider .vh-100.vw-100.position-fixed,
     div#section-about {
         background-size: cover !important;

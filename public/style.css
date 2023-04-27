@@ -903,120 +903,120 @@ a.h-text-dark:hover {
 
 .gradient-light-grey,
 .h-gradient-light-grey:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#2c3e50), to(#bdc3c7)) !important;
 	background-image: -o-linear-gradient(left, #2c3e50, #bdc3c7) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#2c3e50), to(#bdc3c7)) !important;
 	background-image: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
 }
 
 .gradient-green-dark,
 .h-gradient-green-dark:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#99f2c8), to(#1f4037)) !important;
 	background-image: -o-linear-gradient(left, #99f2c8, #1f4037) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#99f2c8), to(#1f4037)) !important;
 	background-image: linear-gradient(to right, #99f2c8, #1f4037) !important;
 }
 
 .gradient-grey-brown,
 .h-gradient-grey-brown:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#C06C84), color-stop(#6C5B7B), to(#355C7D)) !important;
 	background-image: -o-linear-gradient(left, #C06C84, #6C5B7B, #355C7D) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#C06C84), color-stop(#6C5B7B), to(#355C7D)) !important;
 	background-image: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D) !important;
 }
 
 .gradient-light-pink,
 .h-gradient-light-pink:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#ffdde1), to(#ee9ca7)) !important;
 	background-image: -o-linear-gradient(left, #ffdde1, #ee9ca7) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ffdde1), to(#ee9ca7)) !important;
 	background-image: linear-gradient(to right, #ffdde1, #ee9ca7) !important;
 }
 
 .gradient-blue-purple,
 .h-gradient-blue-purple:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#4A00E0), to(#8E2DE2)) !important;
 	background-image: -o-linear-gradient(left, #4A00E0, #8E2DE2) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#4A00E0), to(#8E2DE2)) !important;
 	background-image: linear-gradient(to right, #4A00E0, #8E2DE2) !important;
 }
 
 .gradient-multiples,
 .h-gradient-multiples:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#eea2a2), color-stop(19%, #bbc1bf), color-stop(42%, #57c6e1), color-stop(79%, #b49fda), to(#7ac5d8)) !important;
 	background-image: -o-linear-gradient(left, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#eea2a2), color-stop(19%, #bbc1bf), color-stop(42%, #57c6e1), color-stop(79%, #b49fda), to(#7ac5d8)) !important;
 	background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%) !important;
 }
 
 .gradient-blue-green,
 .h-gradient-blue-green:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#2af598), to(#009efd)) !important;
 	background-image: -o-linear-gradient(left, #2af598 0%, #009efd 100%) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#2af598), to(#009efd)) !important;
 	background-image: linear-gradient(to right, #2af598 0%, #009efd 100%) !important;
 }
 
 .gradient-light,
 .h-gradient-light:hover {
-	background-image: -webkit-gradient(linear, left bottom, left top, from(#DDD), to(#FFF)) !important;
 	background-image: -o-linear-gradient(bottom, #DDD 0%, #FFF 100%) !important;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#DDD), to(#FFF)) !important;
 	background-image: linear-gradient(to top, #DDD 0%, #FFF 100%) !important;
 }
 
 .gradient-grey-orange,
 .h-gradient-grey-orange:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#3B4371), to(#F3904F)) !important;
 	background-image: -o-linear-gradient(left, #3B4371, #F3904F) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#3B4371), to(#F3904F)) !important;
 	background-image: linear-gradient(to right, #3B4371, #F3904F) !important;
 }
 
 .gradient-sunset,
 .h-gradient-sunset:hover {
-	background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3)) !important;
 	background-image: -o-linear-gradient(bottom, #a8edea 0%, #fed6e3 100%) !important;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3)) !important;
 	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%) !important;
 }
 
 .gradient-dark,
 .h-gradient-dark:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#535353), to(#000)) !important;
 	background-image: -o-linear-gradient(left, #535353, #000) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#535353), to(#000)) !important;
 	background-image: linear-gradient(to right, #535353, #000) !important;
 }
 
 .gradient-lemon,
 .h-gradient-lemon:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#cac531), to(#f3f9a7)) !important;
 	background-image: -o-linear-gradient(left, #cac531, #f3f9a7) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#cac531), to(#f3f9a7)) !important;
 	background-image: linear-gradient(to right, #cac531, #f3f9a7) !important;
 }
 
 .gradient-earth,
 .h-gradient-earth:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#649173), to(#dbd5a4)) !important;
 	background-image: -o-linear-gradient(left, #649173, #dbd5a4) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#649173), to(#dbd5a4)) !important;
 	background-image: linear-gradient(to right, #649173, #dbd5a4) !important;
 }
 
 .gradient-sky,
 .h-gradient-sky:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#2980b9), color-stop(#6dd5fa), to(#F5F5F5)) !important;
 	background-image: -o-linear-gradient(left, #2980b9, #6dd5fa, #F5F5F5) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#2980b9), color-stop(#6dd5fa), to(#F5F5F5)) !important;
 	background-image: linear-gradient(to right, #2980b9, #6dd5fa, #F5F5F5) !important;
 }
 
 .gradient-ocean,
 .h-gradient-ocean:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#000046), to(#1cb5e0)) !important;
 	background-image: -o-linear-gradient(left, #000046, #1cb5e0) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#000046), to(#1cb5e0)) !important;
 	background-image: linear-gradient(to right, #000046, #1cb5e0) !important;
 }
 
 .gradient-horizon,
 .h-gradient-horizon:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(rgba(131, 58, 180, 1)), color-stop(50%, rgba(253, 29, 29, 1)), to(rgba(252, 176, 69, 1))) !important;
 	background-image: -o-linear-gradient(left, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(131, 58, 180, 1)), color-stop(50%, rgba(253, 29, 29, 1)), to(rgba(252, 176, 69, 1))) !important;
 	background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%) !important;
 }
 
 .gradient-green-blue,
 .h-gradient-green-blue:hover {
-	background-image: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d)) !important;
 	background-image: -o-linear-gradient(left, #43cea2, #185a9d) !important;
+	background-image: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d)) !important;
 	background-image: linear-gradient(to right, #43cea2, #185a9d) !important;
 }
 
@@ -15751,8 +15751,8 @@ body:not(.device-touch) #gotoTop {
 	width: 100%;
 	min-height: 60px;
 	height: 35%;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
 	background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
