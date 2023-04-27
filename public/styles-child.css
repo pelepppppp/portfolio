@@ -126,8 +126,8 @@ body {
 
     #slider .vh-100.vw-100.position-fixed,
     div#section-about {
-        background-size: cover !important;
-        background-position: center !important;
+        /* background-size: cover !important; */
+        /* background-position: center !important; */
     }
 }
 
