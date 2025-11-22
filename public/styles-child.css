@@ -1,0 +1,99 @@
+html,
+body {
+    transition: all 0.3s;
+}
+
+#logo a {
+    color: #444;
+}
+
+#header-wrap {
+    position: fixed;
+}
+
+.my-works-button {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 700;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.my-works-button:hover {
+    opacity: 1;
+}
+
+.bg-666 {
+    background-color: #666 !important;
+}
+
+.niche-demos-lists li a {
+    color: #333 !important;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.niche-demos-lists li a:hover {
+    color: #555;
+    transition: all 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+    .lists-2 li:first-child {
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #slider {
+        height: 100vh !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .dark .progress-percent::after,
+    .dark .progress-percent::before {
+        top: -8px;
+        transform: rotate(180deg);
+    }
+
+    .progress-percent {
+        top: 9px !important;
+    }
+
+    .slider-caption h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .footer-name {
+        transition: all 0.3s;
+    }
+
+    .footer-name:hover {
+        transition: all 0.3s;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .niche-demos-lists li a {
+        width: 100%;
+        font-size: 17px !important;
+    }
+
+    .portfolio-image-wrapper {
+        width: 52px;
+        margin-right: 10px;
+    }
+
+    .portfolio-text {
+        width: -webkit-fill-available;
+    }
+
+    .slider-element .slider-caption p {
+        font-size: 20px !important;
+    }
+}

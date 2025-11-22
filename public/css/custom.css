@@ -1,0 +1,34 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.hero-overlay {
+	position: absolute;
+	/* relative to blurred-img div */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	/* start transparent */
+	pointer-events: none;
+	transition: background-color 0.3s ease;
+	z-index: 1;
+	/* below text but above background */
+}
+
+.slider-element .slider-caption p {
+	font-size: 24px;
+	color: #333;
+	text-shadow: 0px 0px 5px #fff;
+	font-weight: 500 !important;
+	margin-left: 5px;
+}
+
+.section .container {
+	z-index: 2;
+	position: relative;
+}
